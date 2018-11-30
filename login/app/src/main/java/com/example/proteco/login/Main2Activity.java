@@ -31,12 +31,12 @@ public class Main2Activity extends AppCompatActivity {
 
             @Override
             public void onCancel() {
-                Toast.makeText(getApplicationContext(),)
+                Toast.makeText(getApplicationContext(),"Opoeracion cancelada",Toast.LENGTH_SHORT);
             }
 
             @Override
             public void onError(FacebookException error) {
-
+                Toast.makeText(getApplicationContext(),"Error",Toast.LENGTH_SHORT);
             }
         });
     }
@@ -51,5 +51,6 @@ public class Main2Activity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
+
     }
 }

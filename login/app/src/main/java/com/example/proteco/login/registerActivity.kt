@@ -45,12 +45,13 @@ class registerActivity : AppCompatActivity() {
     }
 
     private fun createNewAccount(){
-        val name:String = txtName.text.toString()
-        val lastName:String = txtLastName.text.toString()
-        val email:String = txtEmail.text.toString()
-        val password:String = txtPassword.text.toString()
+        val name:String = txtName.text.toString().trim()
+        val lastName:String = txtLastName.text.toString().trim()
+        val email:String = txtEmail.text.toString().trim()
+        val password:String = txtPassword.text.toString().trim()
 
         if(!TextUtils.isEmpty(name) && !TextUtils.isEmpty(lastName) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)){
+
             progressBar.visibility=View.VISIBLE
             auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(this){
                 task ->

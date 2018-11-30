@@ -38,6 +38,14 @@
             android:layout_margin="10dp"
             android:hint="Contraseña"
             android:id="@+id/txtPassword"/>
+    <RadioButton
+            android:id="@+id/RBSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/btnSesion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"/>
     <Button
             android:onClick="login"
             android:text="Acceder"
@@ -46,6 +54,7 @@
             android:textColor="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button2"/>
+
     <com.facebook.login.widget.LoginButton
             android:id="@+id/login_button"
             android:layout_width="350dp"
