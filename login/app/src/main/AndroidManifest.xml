@@ -11,7 +11,6 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-
         <activity android:name=".loginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -25,11 +24,13 @@
         </activity>
         <activity android:name=".forgotPassActivity">
         </activity>
-        <activity android:name=".Main2Activity">
-        </activity>
+
         <meta-data
                 android:name="com.facebook.sdk.ApplicationId"
                 android:value="@string/facebook_app_id"/>
+
+        <activity android:name=".ItemActivity">
+        </activity>
     </application>
 
 </manifest>
