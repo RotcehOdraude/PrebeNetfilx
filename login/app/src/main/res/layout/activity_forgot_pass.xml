@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".forgotPassActivity">
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:indeterminate="true"/>
+
+    <TextView
+            android:gravity="center"
+            android:text="Recuperar\n contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="30sp" android:typeface="sans"
+            android:layout_margin="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+    <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/pensar"
+            android:layout_margin="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Introduzca su correo"
+            android:ems="10"
+            android:id="@+id/txtEmail"/>
+    <Button
+            android:onClick="send"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="Enviar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+</LinearLayout>

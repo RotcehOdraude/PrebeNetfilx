@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "456242423845",
+    "firebase_url": "https://login-1c4b0.firebaseio.com",
+    "project_id": "login-1c4b0",
+    "storage_bucket": "login-1c4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456242423845:android:b9b75de08842e030",
+        "android_client_info": {
+          "package_name": "com.example.proteco.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456242423845-kvt15uhnunj7g29ndsg3v7qkjq3eipun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proteco.login",
+            "certificate_hash": "710bac29c22feca5581b30e00b7e854ac9c04552"
+          }
+        },
+        {
+          "client_id": "456242423845-fo4ascmnu7ka4lgh3je2msqca6fo1mcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ueI9_4lwKcswv0Se83nS5JWFZCXVQyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456242423845-fo4ascmnu7ka4lgh3je2msqca6fo1mcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
